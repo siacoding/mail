@@ -24,12 +24,10 @@
         $_SESSION["firstname"] = $results[0][1];
         $_SESSION["lastname"] = $results[0][2];
         $_SESSION["id"] = $results[0][0];
-        //header("Location: homepage.html");
         echo file_get_contents("homepg.html");
     }
     else{
         echo("Password Not Valid");
-        //header("Location: index.html");
         echo file_get_contents("index.html");
     }
     

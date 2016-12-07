@@ -54,7 +54,7 @@ function sendMsg(){
     );
 }
 function signout(){
-    new Ajax.Request("signout.php",
+    new Ajax.Request("signOut.php",
         {
             method: "GET",
             onSuccess: function handler(ajax){

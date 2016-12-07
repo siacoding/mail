@@ -24,7 +24,6 @@
         }
     }else{
         echo("Password should be at least 1 Capital letter, 1 number and be at least 8 characters long");
-        //header("Location: adduser.html");
         echo file_get_contents("newUser.html");
     }
 ?>
